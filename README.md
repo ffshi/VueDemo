@@ -27,12 +27,19 @@ npm test
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
-https://github.com/vincentSea/webapp
-https://segmentfault.com/a/1190000004222334
-http://guowenfh.github.io/2016/03/28/vue-webpack-06-router/
-http://www.open-open.com/lib/view/open1447060624960.html
-http://www.runoob.com/w3cnote/vue-js-quickstart.html
-http://cn.vuejs.org/guide/application.html
-http://router.vuejs.org/zh-cn/options.html
-https://segmentfault.com/a/1190000004974154
-https://segmentfault.com/a/1190000004974154
+[移动端H5积分商城项目](https://github.com/vincentSea/webapp)
+
+[【vue】单文件组件化注册登陆页面简单记录](https://segmentfault.com/a/1190000004222334)
+
+[webpack入坑之旅（六）配合vue-router实现SPA](http://guowenfh.github.io/2016/03/28/vue-webpack-06-router/)
+
+[Vue.js 快速入门](http://www.open-open.com/lib/view/open1447060624960.html)
+
+[Vue.js 入门教程](http://www.runoob.com/w3cnote/vue-js-quickstart.html)
+
+[Vue.js 构建大型应用](http://cn.vuejs.org/guide/application.html)
+
+[vue-router文档 npm package](http://router.vuejs.org/zh-cn/options.html)
+
+[vue-router中v-link指令特性](https://segmentfault.com/a/1190000004974154)
+
