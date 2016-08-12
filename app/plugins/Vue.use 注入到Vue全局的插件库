@@ -1,0 +1,1 @@
+请求加载、弹框、分页、ui组件 等等。plugins 只是把 componets 组件暴露给 Vue全局。
