@@ -6,8 +6,8 @@
 </div>
 </template>
 <script>
+import Vue from 'vue';
 import Hello from '../components/Hello'
-import fetch from 'isomorphic-fetch'
 export default {
   components: {Hello},
   data: function () {
@@ -19,36 +19,36 @@ export default {
         {test: '2'},
         {test: '3'}
       ],
-      productData: {},
-      productData2: {}
+      productData: {}
     }
   },
   ready () {
-    this.getProdductData()
+    this.getProdductData();
+    this.getStatisticData();
   },
   methods: {
     getProdductData: function () {
-      let self = this
-      fetch('http://bohaifae.com/rest/products/1012').then(function (response) {
-        if (response.ok) {
-          response.json().then(function (data) {
-            console.log(data)
-            // self.productData = data
-          })
-        } else {
-          console.log('Looks like the response wasn’t perfect, got status', response.status)
-        }
-      })
+      let self = this;
+      Vue.snb.sendData(_publicConfig.baseUrl+'/products/1012',{
+        method : 'GET',
+        headers: {},
+      },function(data){
+        console.log(data);
+        self.productData = data
+      });
     },
-    getProdductData2: function () {
-      // let self = this
-      // this.$http.get('http://bohaifae.com/rest/products/1013').then(function (response) {
-      //   console.log(response.data)
-      //   self.productData2 = response.data
-      // }, function (response) {
-      //     // error callback
-      // })
+    getStatisticData: function () {
+      let self = this;
+      Vue.snb.sendData(_publicConfig.baseUrl+'/members/login',{
+        method : 'POST',
+        headers: {},
+        body   : "username=13520300801&password=7cbb3252ba6b7e9c422fac5334d22054"
+      },function(data){
+        console.log(data);
+        self.productData = data
+      });
     }
   }
 }
 </script>
+
