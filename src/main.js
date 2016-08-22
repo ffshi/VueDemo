@@ -17,8 +17,8 @@ Object.keys(filters).forEach(k => Vue.filter(k, filters[k]));
 //实例化VueRouter
 let router = new VueRouter({
   hashbang: true,
-  history: false,
-  saveScrollPosition: true,
+  history: true, //html5模式 去掉锚点
+  saveScrollPosition: true, //记住页面的滚动位置 html5模式适用
   transitionOnLoad: true,
   linkActiveClass: 'custom-active'
 });
