@@ -36,6 +36,8 @@ https://github.com/bitinn/node-fetch
 
 ```
 
+## 以下是一些参考文章，这里只做标记
+
 [Vue中文](http://cn.vuejs.org/guide/index.html)
 
 [移动端H5积分商城项目](https://github.com/vincentSea/webapp)
