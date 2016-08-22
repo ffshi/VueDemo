@@ -36,7 +36,12 @@ https://github.com/bitinn/node-fetch
 
 ```
 
-## 以下是一些参考文章，这里只做标记
+
+
+[更多详情，请查看wiki](https://github.com/cherislive/VueDemo/wiki/Base-function)
+
+
+* 参考文章:
 
 [Vue中文](http://cn.vuejs.org/guide/index.html)
 
@@ -59,3 +64,5 @@ https://github.com/bitinn/node-fetch
 [传统 Ajax 已死，Fetch 永生](https://github.com/camsong/blog/issues/2)
 
 [基于vue.js重写Cnodejs.org社区的webapp](https://github.com/shinygang/Vue-cnodejs)
+
+
