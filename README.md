@@ -62,4 +62,4 @@ https://github.com/bitinn/node-fetch
 [基于vue.js重写Cnodejs.org社区的webapp](https://github.com/shinygang/Vue-cnodejs)
 
 
-## [更多详情，请查看wiki](https://github.com/cherislive/VueDemo/wiki/Base-function)
+## [更多详情，请查看wiki](https://github.com/cherislive/VueDemo/wiki)
